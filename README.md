@@ -13,3 +13,4 @@ The system is organized in four main components:
  - `Metrics Storage System`: The metrics storage system will use one of the available data storage mechanism at AWS to store web server performance metrics. These will help the load balancer choose the most appropriate web server.
 
 
+![Architecture](Architecture.png)
