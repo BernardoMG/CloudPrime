@@ -14,3 +14,8 @@ The system is organized in four main components:
 
 
 ![Architecture](Architecture.png)
+
+
+### Code Instrumentation
+
+The code of the application that performs the integer factoring (called by the web server) is written in the Java programming language and compiled into bytecode. The integer factoring code uses a recursive algorithm. The application should further be instrumented with a Java instrumentation tool (such as BIT) in order to extract and persistently store the dynamic performance metrics regarding the code executed. 
